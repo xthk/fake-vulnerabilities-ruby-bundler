@@ -1,0 +1,137 @@
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2014-0130
+Criticality: Medium
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/NkKc7vTW70o
+Title: Directory Traversal Vulnerability With Certain Route Configurations
+Solution: upgrade to ~> 3.2.18, ~> 4.0.5, >= 4.1.1
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2014-7818
+Criticality: Medium
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/dCp7duBiQgo
+Title: Arbitrary file existence disclosure in Action Pack
+Solution: upgrade to ~> 3.2.20, ~> 4.0.11, ~> 4.1.7, >= 4.2.0.beta3
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2014-7829
+Criticality: Medium
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/rMTQy4oRCGk
+Title: Arbitrary file existence disclosure in Action Pack
+Solution: upgrade to ~> 3.2.21, ~> 4.0.11.1, ~> 4.0.12, ~> 4.1.7.1, >= 4.1.8
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2015-7576
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/ANv0HDHEC3k
+Title: Timing attack vulnerability in basic authentication in Action Controller.
+Solution: upgrade to ~> 5.0.0.beta1.1, >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14, ~> 3.2.22.1
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2015-7581
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/dthJ5wL69JE
+Title: Object leak vulnerability for wildcard controller routes in Action Pack
+Solution: upgrade to >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2016-0751
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/9oLY_FCzvoc
+Title: Possible Object Leak and Denial of Service attack in Action Pack
+Solution: upgrade to ~> 5.0.0.beta1.1, >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14, ~> 3.2.22.1
+
+Name: actionpack
+Version: 4.1.0
+Advisory: CVE-2016-2098
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/ly-IH-fxr_Q
+Title: Possible remote code execution vulnerability in Action Pack
+Solution: upgrade to ~> 3.2.22.2, >= 4.2.5.2, ~> 4.2.5, >= 4.1.14.2, ~> 4.1.14
+
+Name: actionview
+Version: 4.1.0
+Advisory: CVE-2016-0752
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/335P1DcLG00
+Title: Possible Information Leak Vulnerability in Action View
+Solution: upgrade to ~> 5.0.0.beta1.1, >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14, ~> 3.2.22.1
+
+Name: actionview
+Version: 4.1.0
+Advisory: CVE-2016-2097
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/ddY6HgqB2z4
+Title: Possible Information Leak Vulnerability in Action View
+Solution: upgrade to ~> 3.2.22.2, >= 4.1.14.2, ~> 4.1.14
+
+Name: activemodel
+Version: 4.1.0
+Advisory: CVE-2016-0753
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/6jQVC1geukQ
+Title: Possible Input Validation Circumvention in Active Model
+Solution: upgrade to ~> 5.0.0.beta1.1, >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14
+
+Name: activerecord
+Version: 4.1.0
+Advisory: CVE-2014-3514
+Criticality: High
+URL: https://groups.google.com/forum/#!msg/rubyonrails-security/M4chq5Sb540/CC1Fh0Y_NWwJ
+Title: Data Injection Vulnerability in Active Record
+Solution: upgrade to ~> 4.0.9, >= 4.1.5
+
+Name: activerecord
+Version: 4.1.0
+Advisory: CVE-2015-7577
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/cawsWcQ6c8g
+Title: Nested attributes rejection proc bypass in Active Record
+Solution: upgrade to ~> 5.0.0.beta1.1, >= 4.2.5.1, ~> 4.2.5, >= 4.1.14.1, ~> 4.1.14, ~> 3.2.22.1
+
+Name: activerecord
+Version: 4.1.0
+Advisory: CVE-2014-3483
+Criticality: Unknown
+URL: http://osvdb.org/show/osvdb/108665
+Title: SQL Injection Vulnerability in Active Record
+Solution: upgrade to ~> 4.0.7, >= 4.1.3
+
+Name: activesupport
+Version: 4.1.0
+Advisory: CVE-2015-3226
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/ruby-security-ann/7VlB_pck3hU
+Title: XSS Vulnerability in ActiveSupport::JSON.encode
+Solution: upgrade to >= 4.2.2, ~> 4.1.11
+
+Name: activesupport
+Version: 4.1.0
+Advisory: CVE-2015-3227
+Criticality: Unknown
+URL: https://groups.google.com/forum/#!topic/rubyonrails-security/bahr2JLnxvk
+Title: Possible Denial of Service attack in Active Support
+Solution: upgrade to >= 4.2.2, ~> 4.1.11, ~> 3.2.22
+
+Name: mail
+Version: 2.5.4
+Advisory: 131677
+Criticality: Unknown
+URL: http://www.mbsd.jp/Whitepaper/smtpi.pdf
+Title: Mail Gem for Ruby vulnerable to SMTP Injection via recipient email addresses
+Solution: upgrade to >= 2.6.0
+
+Name: nokogiri
+Version: 1.6.7.2
+Advisory: CVE-2015-8806
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1473
+Title: Denial of service or RCE from libxml2 and libxslt
+Solution: upgrade to >= 1.6.8
+
+Vulnerabilities found!
